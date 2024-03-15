@@ -89,6 +89,7 @@ html {
   font-weight: 800;
   color: #1f2937;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .image-list {
@@ -98,13 +99,16 @@ html {
 
 .image-container {
   width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-list figure {
   margin: 20px;
 }
 .image {
-  width: 100px;
+  width: 110px;
   height: aut0;
 }
 
@@ -176,4 +180,18 @@ html {
   border-radius: 5px;
   width: 80px;
   height: 25px;
+}
+
+/* ! footer styling */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 75px;
+  align-items: center;
+  background-color: #1f2937;
+}
+.footer-content p {
+  color: #f9faf8ef;
+  text-align: center;
 }
