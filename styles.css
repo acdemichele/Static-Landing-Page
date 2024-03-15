@@ -65,6 +65,10 @@ html {
 .content-right {
   margin-right: 60px;
 }
+.content-right img {
+  border-style: double;
+  border-color: whitesmoke;
+}
 
 .content-left button {
   background-color: #3882f6;
@@ -110,6 +114,8 @@ html {
 .image {
   width: 110px;
   height: aut0;
+  border: #3882f6 solid;
+  border-radius: 5px;
 }
 
 /* !  quote styling */
@@ -133,7 +139,7 @@ html {
 }
 
 .quote-paragraph {
-  text-align: center;
+  text-align: left;
   font-style: italic;
   font-size: 36px;
 }
